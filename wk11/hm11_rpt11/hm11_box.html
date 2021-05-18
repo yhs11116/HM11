@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm11 : Javascript object</title>
+    <style></style>
+    <script>
+      //리터럴 표기법(json)으로 사용자 객체 만들기
+      var student = {
+        id: "20203120",
+        name: "윤현석",
+        number: "010 - 3019 - 1265",
+        day: "2001.03.03"
+      };
+    </script>
+  </head>
+
+  <body>
+    <h3>리터럴 표기법으로 사용자 객체 만들기</h3>
+    <hr />
+    <script>
+      document.write("student : ");
+      document.write(student.id + ", ");
+      document.write(student.name + "<br>");
+      document.write("전화번호 : " + student.number + "<br>");
+      document.write("생일 : " + student.day + "<br>");
+    </script>
+  </body>
+</html>
